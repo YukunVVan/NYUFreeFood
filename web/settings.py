@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 STATICFILES_DIRS = [
-    "/Users/JackTsai/Google Drive/11_程式語言學習/10_projects/web/static"
+    "./static"
 ]
 
 # Application definition
@@ -59,7 +59,7 @@ ROOT_URLCONF = 'web.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/Users/JackTsai/Google Drive/11_程式語言學習/10_projects/web/templetes'],
+        'DIRS': ['./templetes'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
