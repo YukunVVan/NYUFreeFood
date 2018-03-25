@@ -27,9 +27,15 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+
+# STATICFILES_DIRS = [
+#     "/Users/JackTsai/Google Drive/11_程式語言學習/10_projects/web/static"
+# ]
+
 STATICFILES_DIRS = [
     "./static"
 ]
+
 
 # Application definition
 
