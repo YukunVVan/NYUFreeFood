@@ -113,6 +113,10 @@ body {
   width:240px;
 }
 
+.bg-light {
+    background-color: rgba(0,0,0,.075)!important;
+}
+
 /*
  * Footer
  */
