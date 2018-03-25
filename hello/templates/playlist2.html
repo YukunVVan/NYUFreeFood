@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Product example for Bootstrap</title>
+    <title>Listen</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
@@ -18,10 +18,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <!-- Custom styles for this template -->
     <link href="product.css" rel="stylesheet">
+    <link href="{% static 'css/cover.css'%}" rel="stylesheet">
   </head>
 
-  <body>
-
+  <body class="text-center">
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
     <!-- <nav class="site-header sticky-top py-1">
       <div class="container d-flex flex-column flex-md-row justify-content-between">
         <a class="py-2" href="#">
@@ -40,7 +41,7 @@
       <div class="inner">
         <h3 class="masthead-brand"></h3>
         <nav class="nav nav-masthead justify-content-center">
-          <a class="nav-link active" href="homepage">Home</a>
+          <a class="nav-link" href="homepage">Home</a>
           <a class="nav-link" href="aboutus">About Us</a>
           <a class="nav-link" href="#">Contact</a>
         </nav>
@@ -189,5 +190,6 @@
         text: 'Thumbnail'
       });
     </script>
+  </div>
   </body>
 </html>
