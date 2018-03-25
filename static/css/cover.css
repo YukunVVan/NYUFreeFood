@@ -102,11 +102,15 @@ body {
 }
 
 #ex1Slider .slider-selection {
-	background: transparent;
+	background: #BABABA;
+}
+
+.slider.slider-horizontal{
+  width:240px; /* sample value - set it as you like*/
 }
 
 .progrss {
-  background-color: transparent;
+  width:240px;
 }
 
 /*
