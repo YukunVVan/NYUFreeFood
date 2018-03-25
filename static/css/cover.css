@@ -102,9 +102,12 @@ body {
 }
 
 #ex1Slider .slider-selection {
-	background: #BABABA;
+	background: transparent;
 }
 
+.progrss {
+  background-color: transparent;
+}
 
 /*
  * Footer
