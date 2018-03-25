@@ -8,11 +8,11 @@
     <meta name="author" content="">
     <link rel="icon" href="{% static 'img/favicon.ico' %}">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>About Us</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
-
+    <link href="{% static 'css/bootstrap-social.css' %}" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="{% static 'css/carousel.css' %}" rel="stylesheet">
   </head>
@@ -30,16 +30,12 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="product">Our Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link disabled" href="#">Blog</a>
             </li>
           </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
     </header>
@@ -49,8 +45,8 @@
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -104,36 +100,37 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <img class="rounded-circle" src="{% static 'img/vv.png' %}" alt="Generic placeholder image" width="140" height="140">
+            <img class="rounded-circle" src="{% static 'img/vv.jpeg' %}" alt="Generic placeholder image" width="140" height="140">
             <h2>Yukun Wan</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p>Yukun is pursuing Master Degree in Data Science & Informatics at New York University. She worked as Technical Consultant for three years after graduated with Bachelor of Engineering in Software Engineering. Now, she pays more attention to apply statistical modeling and AI in the business area and is seeking Full-time/Intern opportunity in Data Engineer / Data Visualization / Machine Learning etc.</p>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/yukun-wan/" role="button">linkedin &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="{% static 'img/Yu.jpg' %}" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
+            <h2>Yu Chen</h2>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="#" role="button">linkedin &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <img class="rounded-circle" src="{% static 'img/GB.jpg' %}" alt="Generic placeholder image" width="140" height="140">
+            <h2>Gaurav Bhardwaj</h2>
+            <p>Former Test Engineer at Infosys Limited, now a graduate student at Center for Urban Science and Progress, New York University. Pursuing MS in Urban Science and Informatics specializing in Urban Informatics and Data Driven Policies. Studying data and predictive models that will help city agencies make better decisions based on open data. Currently, an intern at ARGO Labs and LAPD, and Havas Rapid Prototyoing Fellow at NYC Media Labs.</p>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/gaurav-bhardwaj-44728467/" role="button">linkedin &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
         <div class="row">
           <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <img class="rounded-circle" src="{% static 'img/JF.jpg' %}" alt="Generic placeholder image" width="140" height="140">
+            <h2>Julián Ignacio Ferreiro</h2>
+            <p>Experience in basic research, technology transfer, security and government agencies. My current interests include training government agencies and the private sector in applying data-driven decisions, entrepreneurship with social impact and promoting investments of the private sector in emerging cities of developing countries.</p>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/julian-ferreiro-85b9592a/" role="button">linkedin &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <img class="rounded-circle" src="{% static 'img/TCC.jpg' %}" alt="Generic placeholder image" width="140" height="140">
+            <h2>ChunChieh Tsai</h2>
+            <p>ChunChieh is a passionate data analyst with 7 years software develope experience. He devoted himself to apply statistical modeling and AI in the business area. He has more than 3 years of data science experience, which started as a Software Developer in Microsoft focusing on machine learning and data visualization. Now, he is exploring deep convolutional neural networks(CNN) and 3D modeling as a C++ / Python developer at ChromoSense LLC.</p>
+            <p><a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/chunchiehtsai/" role="button"><span class="fa fa-linkedin"></span></a>
+            </p>
           </div><!-- /.col-lg-4 -->
           <!-- <div class="col-lg-4">
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
